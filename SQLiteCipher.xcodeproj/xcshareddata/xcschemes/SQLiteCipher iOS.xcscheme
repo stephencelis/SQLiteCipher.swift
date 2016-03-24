@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "80EC44981C4314EE00BADFB1"
-               BuildableName = "SQLiteCipher.framework"
-               BlueprintName = "SQLiteCipher"
+               BuildableName = "SQLiteCipher iOS.framework"
+               BlueprintName = "SQLiteCipher iOS"
                ReferencedContainer = "container:SQLiteCipher.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -62,8 +62,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "80EC44981C4314EE00BADFB1"
-            BuildableName = "SQLiteCipher.framework"
-            BlueprintName = "SQLiteCipher"
+            BuildableName = "SQLiteCipher iOS.framework"
+            BlueprintName = "SQLiteCipher iOS"
             ReferencedContainer = "container:SQLiteCipher.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -84,8 +84,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "80EC44981C4314EE00BADFB1"
-            BuildableName = "SQLiteCipher.framework"
-            BlueprintName = "SQLiteCipher"
+            BuildableName = "SQLiteCipher iOS.framework"
+            BlueprintName = "SQLiteCipher iOS"
             ReferencedContainer = "container:SQLiteCipher.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -102,8 +102,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "80EC44981C4314EE00BADFB1"
-            BuildableName = "SQLiteCipher.framework"
-            BlueprintName = "SQLiteCipher"
+            BuildableName = "SQLiteCipher iOS.framework"
+            BlueprintName = "SQLiteCipher iOS"
             ReferencedContainer = "container:SQLiteCipher.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

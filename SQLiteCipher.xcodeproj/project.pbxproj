@@ -292,9 +292,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		80EC44981C4314EE00BADFB1 /* SQLiteCipher */ = {
+		80EC44981C4314EE00BADFB1 /* SQLiteCipher iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80EC44AD1C4314EE00BADFB1 /* Build configuration list for PBXNativeTarget "SQLiteCipher" */;
+			buildConfigurationList = 80EC44AD1C4314EE00BADFB1 /* Build configuration list for PBXNativeTarget "SQLiteCipher iOS" */;
 			buildPhases = (
 				80EC44941C4314EE00BADFB1 /* Sources */,
 				80EC44951C4314EE00BADFB1 /* Frameworks */,
@@ -306,7 +306,7 @@
 			dependencies = (
 				80EC45681C43196A00BADFB1 /* PBXTargetDependency */,
 			);
-			name = SQLiteCipher;
+			name = "SQLiteCipher iOS";
 			productName = SQLiteCipher;
 			productReference = 80EC44991C4314EE00BADFB1 /* SQLiteCipher.framework */;
 			productType = "com.apple.product-type.framework";
@@ -369,7 +369,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				80EC44981C4314EE00BADFB1 /* SQLiteCipher */,
+				80EC44981C4314EE00BADFB1 /* SQLiteCipher iOS */,
 				80EC44A21C4314EE00BADFB1 /* SQLiteCipherTests */,
 			);
 		};
@@ -485,7 +485,7 @@
 /* Begin PBXTargetDependency section */
 		80EC44A61C4314EE00BADFB1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 80EC44981C4314EE00BADFB1 /* SQLiteCipher */;
+			target = 80EC44981C4314EE00BADFB1 /* SQLiteCipher iOS */;
 			targetProxy = 80EC44A51C4314EE00BADFB1 /* PBXContainerItemProxy */;
 		};
 		80EC45681C43196A00BADFB1 /* PBXTargetDependency */ = {
@@ -604,7 +604,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stephencelis.SQLiteCipher;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SQLiteCipher;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -623,7 +623,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stephencelis.SQLiteCipher;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SQLiteCipher;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -660,7 +660,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80EC44AD1C4314EE00BADFB1 /* Build configuration list for PBXNativeTarget "SQLiteCipher" */ = {
+		80EC44AD1C4314EE00BADFB1 /* Build configuration list for PBXNativeTarget "SQLiteCipher iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				80EC44AE1C4314EE00BADFB1 /* Debug */,
