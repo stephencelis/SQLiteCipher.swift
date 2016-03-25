@@ -563,6 +563,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.stephencelis.SQLiteCipher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -581,6 +582,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.stephencelis.SQLiteCipher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "";
 			};
 			name = Release;
 		};
