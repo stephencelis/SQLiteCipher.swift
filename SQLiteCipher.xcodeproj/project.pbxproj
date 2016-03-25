@@ -32,6 +32,7 @@
 		80EC45611C4316CD00BADFB1 /* Cipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EC45601C4316CD00BADFB1 /* Cipher.swift */; };
 		80EC45631C43188800BADFB1 /* SQLite.h in Headers */ = {isa = PBXBuildFile; fileRef = 80EC45621C43188800BADFB1 /* SQLite.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		80EC45691C43197700BADFB1 /* libsqlcipher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80EC44D51C4315A900BADFB1 /* libsqlcipher.a */; };
+		9C1B9D511CA5C93500EF0A1E /* Foundation+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1B9D501CA5C93500EF0A1E /* Foundation+extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,6 +117,7 @@
 		80EC45481C43169C00BADFB1 /* Setter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Setter.swift; sourceTree = "<group>"; };
 		80EC45601C4316CD00BADFB1 /* Cipher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cipher.swift; sourceTree = "<group>"; };
 		80EC45621C43188800BADFB1 /* SQLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLite.h; sourceTree = "<group>"; };
+		9C1B9D501CA5C93500EF0A1E /* Foundation+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Foundation+extension.swift"; path = "SQLiteCipher/Foundation+extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 		80EC448F1C4314EE00BADFB1 = {
 			isa = PBXGroup;
 			children = (
+				9C1B9D501CA5C93500EF0A1E /* Foundation+extension.swift */,
 				80EC449B1C4314EE00BADFB1 /* SQLiteCipher */,
 				80EC44A71C4314EE00BADFB1 /* SQLiteCipherTests */,
 				80EC449A1C4314EE00BADFB1 /* Products */,
@@ -412,6 +415,7 @@
 				80EC454F1C43169C00BADFB1 /* Blob.swift in Sources */,
 				80EC45611C4316CD00BADFB1 /* Cipher.swift in Sources */,
 				80EC45561C43169C00BADFB1 /* R*Tree.swift in Sources */,
+				9C1B9D511CA5C93500EF0A1E /* Foundation+extension.swift in Sources */,
 				80EC45521C43169C00BADFB1 /* SQLite-Bridging.m in Sources */,
 				80EC45541C43169C00BADFB1 /* Value.swift in Sources */,
 				80EC455B1C43169C00BADFB1 /* Expression.swift in Sources */,
