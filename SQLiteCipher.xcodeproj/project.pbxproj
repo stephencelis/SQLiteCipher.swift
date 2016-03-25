@@ -33,6 +33,7 @@
 		80EC45631C43188800BADFB1 /* SQLite.h in Headers */ = {isa = PBXBuildFile; fileRef = 80EC45621C43188800BADFB1 /* SQLite.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		80EC45691C43197700BADFB1 /* libsqlcipher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80EC44D51C4315A900BADFB1 /* libsqlcipher.a */; };
 		9C1B9D511CA5C93500EF0A1E /* Foundation+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1B9D501CA5C93500EF0A1E /* Foundation+extension.swift */; };
+		9CEC27C01CA5D3BB002AA033 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80EC44C01C43159800BADFB1 /* SQLite.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -146,6 +147,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CEC27C01CA5D3BB002AA033 /* SQLite.framework in Frameworks */,
 				80EC45691C43197700BADFB1 /* libsqlcipher.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
