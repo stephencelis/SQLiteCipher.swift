@@ -85,6 +85,27 @@
 			remoteGlobalIDString = D2AAC045055464E500DB518D;
 			remoteInfo = sqlcipher;
 		};
+		9C1B9D821CA5CDED00EF0A1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80EC44B31C43159800BADFB1 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E5A1C6BB0F50062603F;
+			remoteInfo = "SQLite tvOS";
+		};
+		9C1B9D841CA5CDED00EF0A1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80EC44B31C43159800BADFB1 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E631C6BB0F60062603F;
+			remoteInfo = "SQLiteTests tvOS";
+		};
+		9C1B9D861CA5CDED00EF0A1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80EC44B31C43159800BADFB1 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A121AC451CA35C79005A31D1;
+			remoteInfo = "SQLite watchOS";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -117,7 +138,7 @@
 		80EC45481C43169C00BADFB1 /* Setter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Setter.swift; sourceTree = "<group>"; };
 		80EC45601C4316CD00BADFB1 /* Cipher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cipher.swift; sourceTree = "<group>"; };
 		80EC45621C43188800BADFB1 /* SQLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLite.h; sourceTree = "<group>"; };
-		9C1B9D501CA5C93500EF0A1E /* Foundation+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Foundation+extension.swift"; path = "SQLiteCipher/Foundation+extension.swift"; sourceTree = "<group>"; };
+		9C1B9D501CA5C93500EF0A1E /* Foundation+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Foundation+extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,7 +164,6 @@
 		80EC448F1C4314EE00BADFB1 = {
 			isa = PBXGroup;
 			children = (
-				9C1B9D501CA5C93500EF0A1E /* Foundation+extension.swift */,
 				80EC449B1C4314EE00BADFB1 /* SQLiteCipher */,
 				80EC44A71C4314EE00BADFB1 /* SQLiteCipherTests */,
 				80EC449A1C4314EE00BADFB1 /* Products */,
@@ -167,6 +187,7 @@
 				80EC449C1C4314EE00BADFB1 /* SQLiteCipher.h */,
 				80EC449E1C4314EE00BADFB1 /* Info.plist */,
 				80EC45601C4316CD00BADFB1 /* Cipher.swift */,
+				9C1B9D501CA5C93500EF0A1E /* Foundation+extension.swift */,
 				80EC454A1C43169C00BADFB1 /* SQLite */,
 			);
 			path = SQLiteCipher;
@@ -188,6 +209,9 @@
 				80EC452F1C43169400BADFB1 /* SQLiteTests iOS.xctest */,
 				80EC44C41C43159800BADFB1 /* SQLite.framework */,
 				80EC45311C43169400BADFB1 /* SQLiteTests Mac.xctest */,
+				9C1B9D831CA5CDED00EF0A1E /* SQLite.framework */,
+				9C1B9D851CA5CDED00EF0A1E /* SQLiteTests tvOS.xctest */,
+				9C1B9D871CA5CDED00EF0A1E /* SQLite.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -385,6 +409,27 @@
 			fileType = wrapper.cfbundle;
 			path = "SQLiteTests Mac.xctest";
 			remoteRef = 80EC45301C43169400BADFB1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9C1B9D831CA5CDED00EF0A1E /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 9C1B9D821CA5CDED00EF0A1E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9C1B9D851CA5CDED00EF0A1E /* SQLiteTests tvOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests tvOS.xctest";
+			remoteRef = 9C1B9D841CA5CDED00EF0A1E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9C1B9D871CA5CDED00EF0A1E /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 9C1B9D861CA5CDED00EF0A1E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
