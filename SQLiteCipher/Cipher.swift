@@ -22,7 +22,8 @@
 // THE SOFTWARE.
 //
 
-import SQLite3
+import SQLite
+import CSQLite
 
 extension Connection {
     
