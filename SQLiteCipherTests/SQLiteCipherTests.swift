@@ -1,6 +1,10 @@
-import XCTest
-import SQLiteCipher
 
+
+import XCTest
+import SQLite
+import CSQLite
+
+@testable import SQLiteCipher
 class CipherTests: XCTestCase {
     
     let db = try! Connection()
