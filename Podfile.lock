@@ -8,7 +8,16 @@ PODS:
 
 DEPENDENCIES:
   - SQLCipher
-  - SQLite.swift (~> 0.10.1)
+  - SQLite.swift (from `https://github.com/gblotter/SQLite.swift.git`)
+
+EXTERNAL SOURCES:
+  SQLite.swift:
+    :git: https://github.com/gblotter/SQLite.swift.git
+
+CHECKOUT OPTIONS:
+  SQLite.swift:
+    :commit: 9c7309f9f19aaec281a6542f942d7ba302ca2a6f
+    :git: https://github.com/gblotter/SQLite.swift.git
 
 SPEC CHECKSUMS:
   SQLCipher: d490d2effe735895d2204d25a154b1e722278421
