@@ -1,0 +1,17 @@
+PODS:
+  - SQLCipher (3.3.1):
+    - SQLCipher/standard (= 3.3.1)
+  - SQLCipher/common (3.3.1)
+  - SQLCipher/standard (3.3.1):
+    - SQLCipher/common
+  - SQLite.swift (0.10.1)
+
+DEPENDENCIES:
+  - SQLCipher
+  - SQLite.swift (~> 0.10.1)
+
+SPEC CHECKSUMS:
+  SQLCipher: d490d2effe735895d2204d25a154b1e722278421
+  SQLite.swift: 6a6e4b034efc317ce4e203b6af2d3024fee2b570
+
+COCOAPODS: 0.39.0
