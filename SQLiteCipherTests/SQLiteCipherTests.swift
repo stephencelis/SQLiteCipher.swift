@@ -1,5 +1,6 @@
 import XCTest
 import SQLiteCipher
+import SQLite3
 
 class CipherTests: XCTestCase {
     
