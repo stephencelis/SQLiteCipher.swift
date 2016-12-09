@@ -22,7 +22,9 @@
 // THE SOFTWARE.
 //
 
-import SQLite3
+import SQLite
+import CSQLite
+import SQLCipher
 
 extension Connection {
     

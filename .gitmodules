@@ -1,6 +1,0 @@
-[submodule "Vendor/sqlcipher"]
-	path = Vendor/sqlcipher
-	url = https://github.com/sqlcipher/sqlcipher.git
-[submodule "Vendor/SQLite.swift"]
-	path = Vendor/SQLite.swift
-	url = https://github.com/stephencelis/SQLite.swift.git
